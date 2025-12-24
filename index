@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en"
 <head>
-    <meta charset- : "UTF-8">
-        <meta name = "veiwport" content = "width=device-width,
-        initial-scale=1.0"
-        <title>structure of html </title>
-        <body>
-            introduction to html
-            HTML - Hyper Text Markup Langugage
-            hell0 world
+</head>
+
+        <h1>structure of html </h1>
+           <form>
+            <label>name </label><br>
+            <input type =" text" name ="name"><br>
+            <label> email id </label><br>
+            <input type =" email" name ="email id"><br>
+            <label> password </label><br>
+            <input type =" password" name =" password"><br>
+             <input type = " submit" value =" submit">
+           </form>
+            
+      
+
+</body>
+
         </body>
         </html>
+    
+    
