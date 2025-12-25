@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"
 <head>
-</head>
 
+</head>
         <h1>structure of html </h1>
            <form>
             <label>name </label><br>
@@ -13,12 +13,7 @@
             <input type =" password" name =" password"><br>
              <input type = " submit" value =" submit">
            </form>
-            
-      
-
-</body>
-
+        </body>
         </body>
         </html>
-    
-    
+        
