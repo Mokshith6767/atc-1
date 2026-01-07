@@ -38,7 +38,7 @@ ul li::before {
     text-decoration: underline;
 }
 ul li::before {
-    content: "🚀";
+    content: "🚀";}3
 p::first-letter {
     font-size: 200%;
     color: red;
