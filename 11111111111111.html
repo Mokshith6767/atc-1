@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid Project</title>
+    <!-- Include Bootstrap CSS from a CDN -->
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <style>
+        /* Optional custom styling to visualize the columns */
+        .col, .col-4 {
+            background-color: #e9ecef;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main content container -->
+    <div class="container mt-4">
+        <h1>My First Bootstrap Grid Project</h1>
+        <p>This page demonstrates creating simple grid properties using Bootstrap's library, as per the instructions.</p>
+
+        <!-- A row for the columns -->
+        <div class="row">
+            <!-- Three equal-width columns using auto-layout -->
+            <div class="col">
+                Column 1
+            </div>
+            <div class="col">
+                Column 2
+            </div>
+            <div class="col">
+                Column 3
+            </div>
+        </div>
+
+        <h2 class="mt-4">Another Example: Unequal Columns</h2>
+        <div class="row">
+            <!-- Unequal columns that still add up to 12 total units per row -->
+            <div class="col-3">
+                25% Width (col-3)
+            </div>
+            <div class="col-6">
+                50% Width (col-6)
+            </div>
+            <div class="col-3">
+                25% Width (col-3)
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS bundle (optional, for components like pop-ups) -->
+    <script src="https://cdn.jsdelivr.net"></script>
+</body>
+</html>
